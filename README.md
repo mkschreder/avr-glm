@@ -1,5 +1,7 @@
 This is a glm math library port for the avr microcontroller. GLM is a very good linear algebra / math library that is used in games and has the same syntax as glsl (it's designed to mimic glsl on the PC). 
 
+Note: most of this library is "header only", and things that are not header only are not ported yet and are not included here right now. 
+
 The original library is unfortunately written for 32 bit processors only, so porting it is quite a task. This is by far NOT a complete port of the library. I'm just putting it here in hope that it may be useful to someone and that someone may make more features of this very good library work on AVR platform. 
 
 Currently we have the following features working: 
